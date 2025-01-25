@@ -11,3 +11,9 @@
 - Linguagem que utilizamos para estilizar um site.
 
 - Usamos em conjunto com o HTML.
+
+## A importância de um editor de código 
+
+- Não precisamos de um editor para criar códigos em HTML e CSS, porém os editores são ótimas ferramentas para programação.
+
+- Nos ajudam com estruturas de páginas, erros e highlights.
