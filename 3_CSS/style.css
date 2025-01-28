@@ -2,3 +2,10 @@ p {
     color: gray;
     font-size: 50px;
 }
+
+.btn {
+    background-color: azure;
+    color:  blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+}

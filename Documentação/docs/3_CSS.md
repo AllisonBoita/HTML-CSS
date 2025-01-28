@@ -63,3 +63,27 @@ Para adicionar comentários no CSS, utilize `/* comentário */`.
 `/* Isso é um comentário e não será exibido no site */`  
 
 Os comentários são úteis para organizar o código e documentar partes importantes.  
+
+# Classes e IDs em HTML e CSS
+
+## 1. Class (`class`)
+- Pode ser usada em **vários elementos**.
+- É recomendada para aplicar o mesmo estilo a múltiplos itens.
+- No CSS, as classes são referenciadas com um ponto (`.`).
+
+## 2. ID (`id`)
+- Deve ser **único** por página.
+- Usado para identificar elementos específicos.
+- No CSS, os IDs são referenciados com um jogo da velha (`#`).
+
+## Diferenças entre `class` e `id`
+| Característica | `class` | `id` |
+|--------------|--------|-----|
+| Pode ser reutilizado? | Sim, em vários elementos | Não, deve ser único |
+| Símbolo no CSS | `.` (ponto) | `#` (jogo da velha) |
+| Prioridade no CSS | Menor | Maior |
+
+## Boas práticas
+- Use `class` para estilizar múltiplos elementos.
+- Use `id` apenas para elementos únicos ou como âncoras no HTML.
+- Evite usar `id` no CSS para manter a flexibilidade dos estilos.
