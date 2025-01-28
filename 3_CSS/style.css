@@ -1,7 +1,7 @@
-p {
+/* p {
     color: gray;
     font-size: 50px;
-}
+} */
 
 /*
 .btn {
@@ -23,4 +23,11 @@ p {
 
 .btn-1:hover {
     background: rgba(255, 0, 0, 0.7); /* Vermelho com transparência */
+}
+
+.bg-opacity{
+    background-color: green;
+    color: black;
+    opacity: 0.8;
+    font-size: 50px;
 }
