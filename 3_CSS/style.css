@@ -3,6 +3,7 @@ p {
     font-size: 50px;
 }
 
+/*
 .btn {
     background-color: azure;
     color:  blueviolet;
@@ -13,4 +14,13 @@ p {
 #textoPrincipal{
     background-color: blanchedalmond;
     color: red;
+}
+*/
+
+.btn {
+    background: rgb(146, 136, 136); /* Vermelho opaco */
+}
+
+.btn-1:hover {
+    background: rgba(255, 0, 0, 0.7); /* Vermelho com transparência */
 }

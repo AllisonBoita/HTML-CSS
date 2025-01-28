@@ -177,3 +177,58 @@ Cada par de caracteres em hexadecimal pode ser convertido para decimal:
 - Use **cores semânticas** (`--primary-color`, `--secondary-color`) para facilitar a manutenção do código.  
 - Prefira **HEX para cores sólidas** e **RGBA para cores com transparência**.  
 - Evite usar apenas cores próximas ao branco ou preto para garantir melhor acessibilidade.  
+
+# RGB e RGBA no CSS  
+
+## 1. O que é RGB?  
+RGB (Red, Green, Blue) é um modelo de cores aditivas que combina diferentes intensidades de **vermelho (R)**, **verde (G)** e **azul (B)** para formar outras cores.  
+
+Cada valor pode variar de **0 a 255**, onde:  
+- `0` significa ausência da cor.  
+- `255` significa intensidade máxima da cor.  
+
+### Exemplos:  
+- **Preto** → `rgb(0, 0, 0)` (sem luz)  
+- **Branco** → `rgb(255, 255, 255)` (máxima luz)  
+- **Vermelho** → `rgb(255, 0, 0)`  
+- **Verde** → `rgb(0, 255, 0)`  
+- **Azul** → `rgb(0, 0, 255)`  
+- **Cinza** → `rgb(128, 128, 128)` (valores iguais resultam em tons de cinza)  
+
+---
+
+## 2. O que é RGBA?  
+RGBA é uma extensão do modelo RGB que adiciona um **canal alfa (A)** para definir a transparência.  
+
+O canal alfa varia de **0 a 1**, onde:  
+- `0` → Totalmente transparente.  
+- `1` → Totalmente opaco.  
+
+### Exemplos:  
+- **Vermelho com 50% de opacidade** → `rgba(255, 0, 0, 0.5)`  
+- **Preto com 30% de opacidade** → `rgba(0, 0, 0, 0.3)`  
+- **Branco quase invisível** → `rgba(255, 255, 255, 0.1)`  
+
+---
+
+## 3. Diferença entre HEX, RGB e RGBA  
+
+| Formato | Descrição | Exemplo |
+|---------|-----------|---------|
+| HEX | Representação hexadecimal (mais curta) | `#FF0000` |
+| RGB | Define a cor com valores numéricos | `rgb(255, 0, 0)` |
+| RGBA | Igual ao RGB, mas com transparência | `rgba(255, 0, 0, 0.5)` |
+
+---
+
+## 4. Vantagens do RGB e RGBA  
+✅ **RGB** é mais intuitivo para misturar cores do que HEX.  
+✅ **RGBA** permite transparências sem precisar de imagens ou camadas extras.  
+✅ **Pode ser usado em gradientes, sombras e bordas no CSS.**  
+
+---
+
+## 5. Uso Prático no CSS  
+### Aplicando RGBA no fundo de um elemento  
+```css
+background-color: rgba(0, 0, 0, 0.5);
