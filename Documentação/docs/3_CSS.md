@@ -87,3 +87,30 @@ Os comentários são úteis para organizar o código e documentar partes importa
 - Use `class` para estilizar múltiplos elementos.
 - Use `id` apenas para elementos únicos ou como âncoras no HTML.
 - Evite usar `id` no CSS para manter a flexibilidade dos estilos.
+
+# Ordem de Prioridade entre `id` e `class` no CSS
+
+## 1. Prioridade dos Seletores no CSS
+O CSS segue uma hierarquia de especificidade ao aplicar estilos. A ordem de prioridade, do mais forte para o mais fraco, é:
+
+1. **Estilos inline** (`style="color: red;"`) → **Especificidade: 1000**
+2. **IDs** (`#id`) → **Especificidade: 100**
+3. **Classes**, atributos e pseudo-classes (`.classe`, `[atributo]`, `:hover`) → **Especificidade: 10**
+4. **Elementos e pseudo-elementos** (`h1`, `p`, `::before`, `::after`) → **Especificidade: 1**
+
+## 2. Exemplo de Especificidade
+Se tivermos os seguintes estilos:
+
+```css
+p {
+  color: blue; /* Especificidade: 1 */
+}
+
+.texto {
+  color: green; /* Especificidade: 10 */
+}
+
+#titulo {
+  color: red; /* Especificidade: 100 */
+}
+```
