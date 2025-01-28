@@ -114,3 +114,66 @@ p {
   color: red; /* Especificidade: 100 */
 }
 ```
+
+# Cores em HEX no CSS  
+
+## 1. O que é o Código HEX?  
+O código HEX (hexadecimal) é uma forma de representar cores no CSS utilizando um formato de **seis dígitos**, combinando valores de vermelho (R), verde (G) e azul (B).  
+
+Cada componente tem um valor entre **00** e **FF** (de 0 a 255 em decimal).  
+
+## 2. Estrutura do Código HEX  
+O formato básico é:  
+
+`#RRGGBB`  
+
+- `RR`: Intensidade do vermelho (00 a FF)  
+- `GG`: Intensidade do verde (00 a FF)  
+- `BB`: Intensidade do azul (00 a FF)  
+
+### Exemplos:  
+- **Branco** → `#FFFFFF` (R: 255, G: 255, B: 255)  
+- **Preto** → `#000000` (R: 0, G: 0, B: 0)  
+- **Vermelho** → `#FF0000` (R: 255, G: 0, B: 0)  
+- **Verde** → `#00FF00` (R: 0, G: 255, B: 0)  
+- **Azul** → `#0000FF` (R: 0, G: 0, B: 255)  
+
+## 3. Formato HEX Simples  
+Se os valores forem iguais para os dois dígitos de cada cor, podemos usar a versão curta:  
+
+`#RGB` → reduzido de `#RRGGBB`  
+
+### Exemplos:  
+- `#FFF` → `#FFFFFF` (Branco)  
+- `#000` → `#000000` (Preto)  
+- `#F00` → `#FF0000` (Vermelho)  
+
+## 4. HEX com Transparência (RGBA)  
+Também podemos adicionar um quarto componente para definir a **opacidade**, no formato `#RRGGBBAA`, onde `AA` representa o nível de transparência.  
+
+- `00` = totalmente transparente  
+- `FF` = totalmente opaco  
+
+### Exemplos:  
+- `#FF000080` → Vermelho com 50% de opacidade  
+- `#00000099` → Preto com 60% de opacidade  
+
+## 5. Conversão entre HEX e RGB  
+O valor HEX pode ser convertido para RGB da seguinte forma:  
+
+Cada par de caracteres em hexadecimal pode ser convertido para decimal:  
+
+- `#1A2B3C` →  
+  - `1A` (hex) = 26 (decimal)  
+  - `2B` (hex) = 43 (decimal)  
+  - `3C` (hex) = 60 (decimal)  
+  - **RGB(26, 43, 60)**  
+
+## 6. Ferramentas Úteis  
+- **Color Picker do Google**: Pesquise "color picker" no Google para selecionar cores e obter seus códigos HEX e RGB.  
+- **Sites como Coolors e Adobe Color** ajudam a criar paletas de cores.  
+
+## 7. Boas Práticas  
+- Use **cores semânticas** (`--primary-color`, `--secondary-color`) para facilitar a manutenção do código.  
+- Prefira **HEX para cores sólidas** e **RGBA para cores com transparência**.  
+- Evite usar apenas cores próximas ao branco ou preto para garantir melhor acessibilidade.  
