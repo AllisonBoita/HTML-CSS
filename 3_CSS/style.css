@@ -1,33 +1,139 @@
+/* 4 - External */
+body {
+    padding-bottom: 500px;
+}
+
+h3 {
+    color: green;
+}
+
 /* p {
-    color: gray;
-    font-size: 50px;
+  color: blueviolet;
 } */
 
-/*
-.btn {
-    background-color: azure;
-    color:  blueviolet;
+/* Algum comentário */
+/* mais um comentário * /
+/* Terceiro comentário */
+
+/* classes */
+.paragraph {
+    background-color: #000;
+    color: aqua;
     padding: 5px;
-    border-radius: 5px;
 }
 
-#textoPrincipal{
-    background-color: blanchedalmond;
-    color: red;
-}
-*/
-
-.btn {
-    background: rgb(146, 136, 136); /* Vermelho opaco */
+/* ids */
+#exclusive-title {
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 40px;
 }
 
-.btn-1:hover {
-    background: rgba(255, 0, 0, 0.7); /* Vermelho com transparência */
+/* ordem das regras */
+h2 {
+    border-bottom: 2px solid red;
 }
 
-.bg-opacity{
+.titulo {
+    border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green;
+}
+
+/* Nome de cores */
+.color-name {
+    color: crimson;
+}
+
+/* Hex */
+.hex {
+    color: #55a398;
+}
+
+.hex-2 {
+    color: #00eaff;
+}
+
+/* Aprofundando em hex */
+.simple-hex {
+    color: #333;
+}
+
+.simple-hex-2 {
+    color: #a5f;
+}
+
+/* RGB */
+.rgb {
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+    color: rgb(199, 21, 47);
+}
+
+/* RGBA */
+.rgba {
+    color: rgba(100, 199, 45, 0.3);
+}
+
+/* HSL */
+.hsl {
+    color: hsl(100, 20%, 50%);
+}
+
+.hsl-2 {
+    color: hsl(201, 82%, 48%);
+}
+
+/* Background */
+.bg {
+    background-color: #000;
+    color: yellow;
+}
+
+.bg-2 {
+    background-color: rgb(200, 20, 40);
+    color: #00eaff;
+}
+
+/* Background opacity */
+.bg-opacity {
     background-color: green;
-    color: black;
+    opacity: 0.2;
+}
+
+.bg-opacity-2 {
+    background-color: #999;
+    color: #000;
     opacity: 0.8;
-    font-size: 50px;
+}
+
+/* RGBA com opacidade */
+.rgba-opacity {
+    background-color: rgba(90, 120, 20, 0.2);
+    color: #000;
+}
+
+/* BG image */
+.bg-image {
+    background-image: url("../2_HTML/images/mba.jpg");
+    padding: 10px;
+    color: #fff;
+}
+
+/* Centralizando bg image */
+.not-centered-bg,
+.centered-bg {
+    height: 400px;
+    width: 400px;
+    background-image: url("../2_HTML/images/mba.jpg");
+}
+
+.centered-bg {
+    background-position: center;
+    background-size: cover;
 }
