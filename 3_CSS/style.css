@@ -172,3 +172,9 @@ h2 {
     padding-right: 10px;
     padding-bottom: 40px;
 }
+
+.shorthand-padding {
+    background-color: orange;
+    color: black;
+    padding: 30px 15px 15px 30px;
+}
