@@ -230,5 +230,26 @@ O canal alfa varia de **0 a 1**, onde:
 
 ## 5. Uso Prático no CSS  
 ### Aplicando RGBA no fundo de um elemento  
+
 ```css
 background-color: rgba(0, 0, 0, 0.5);
+```
+
+# Box Model no CSS
+
+O **Box Model** em CSS é o conceito que define como os elementos HTML são representados como caixas retangulares na página. Cada caixa é composta por quatro camadas principais:
+
+1. **Content (Conteúdo)**: A área onde o conteúdo do elemento (texto, imagem, etc.) é exibido.  
+2. **Padding (Preenchimento)**: Espaço entre o conteúdo e a borda da caixa.  
+3. **Border (Borda)**: A borda ao redor do elemento, que pode ter diferentes larguras e estilos.  
+4. **Margin (Margem)**: Espaço externo ao redor da borda, separando o elemento de outros elementos.  
+
+## Modelo de Cálculo do Tamanho Total
+
+O tamanho total de um elemento é calculado somando:
+
+- **Largura total** = largura do conteúdo + preenchimento esquerdo + preenchimento direito + borda esquerda + borda direita + margem esquerda + margem direita  
+- **Altura total** = altura do conteúdo + preenchimento superior + preenchimento inferior + borda superior + borda inferior + margem superior + margem inferior  
+
+Caso queira que a largura e a altura incluam o preenchimento e a borda, sem somá-los separadamente, é possível usar a propriedade `box-sizing` com o valor `border-box`.
+

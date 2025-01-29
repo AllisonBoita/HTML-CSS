@@ -137,3 +137,16 @@ h2 {
     background-position: center;
     background-size: cover;
 }
+
+/* Largura e Altura */
+
+.height-width {
+    background-color: red;
+    width: 100px;
+    height: 200px;
+}
+
+.height-width2 {
+    background-color: brown;
+    height: 200px;
+}
