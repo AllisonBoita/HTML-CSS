@@ -201,3 +201,14 @@ h2 {
     box-sizing: border-box;
 }
 
+/* Border */
+
+.with-border {
+    border: 5px solid red;
+    padding: 10px;
+}
+
+.with-border2 {
+    border: 3px dotted brown;
+    padding: 5px;
+}
