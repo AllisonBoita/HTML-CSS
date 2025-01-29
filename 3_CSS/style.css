@@ -150,3 +150,16 @@ h2 {
     background-color: brown;
     height: 200px;
 }
+
+/* Padding */
+
+.without-padding,
+.with-padding {
+    background-color: red;
+    color: white;
+}
+
+.with-padding {
+    padding: 20px;
+    background-color: #000;
+}
