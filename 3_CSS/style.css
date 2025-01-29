@@ -212,3 +212,17 @@ h2 {
     border: 3px dotted brown;
     padding: 5px;
 }
+
+/* Borda Individual */
+
+.border-left {
+    border-left: 3px solid red;
+    background-color: black;
+    padding: 10px;
+}
+
+.border-bottom {
+    border-left: 5px double blue;
+    background-color: gray;
+    padding: 10px;
+}
