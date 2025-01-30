@@ -266,3 +266,21 @@ h2 {
     width: 200px;
     height: 300px;
 }
+
+/* Exercicio */
+
+#exercicio-box-model {
+    margin: 10px;
+    padding: 10px;
+    color: red;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    outline: 3px solid red;
+}
+
+.h2-exercicio {
+    background-color: gray;
+}
