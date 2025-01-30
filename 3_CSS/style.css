@@ -235,3 +235,23 @@ h2 {
     border-radius: 20px;
     padding: 10px;
 }
+
+/* Margem */
+
+.margin {
+    background-color: #333;
+    margin: 10px;
+    color: white;
+}
+
+.margin-top{
+    background-color: #222;
+    margin-top: 10px;
+    color: white;
+}
+
+.margin-shorthand{
+    background-color: #444;
+    margin: 10px 15px 20px 30px;
+    color: white;
+}
