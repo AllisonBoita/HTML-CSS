@@ -226,3 +226,12 @@ h2 {
     background-color: gray;
     padding: 10px;
 }
+
+/* Border Radius */
+
+.border-radius {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
