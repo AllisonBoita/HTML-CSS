@@ -320,3 +320,31 @@ h2 {
 .lower {
     text-transform: lowercase;
 }
+
+/* Letter Spacing */
+
+.spacing {
+    letter-spacing: 10px;
+}
+
+/* Font Family */
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+.cursive {
+    font-family: cursive;
+}
