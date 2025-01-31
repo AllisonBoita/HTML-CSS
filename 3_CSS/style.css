@@ -284,3 +284,15 @@ h2 {
 .h2-exercicio {
     background-color: gray;
 }
+
+/* Text Align */
+
+.alignment-text {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 1px solid red;
+}
