@@ -348,3 +348,13 @@ h2 {
 .cursive {
     font-family: cursive;
 }
+
+/* Font Style */
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
