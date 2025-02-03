@@ -390,3 +390,22 @@ h2 {
     font-size: 40px;
     background-color: red;
 }
+
+/* Display */
+
+.inline-box {
+    color: green;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #55a398;
+    display: inline-block; /* Deixa os elementos lado a lado */
+}
+
+.block {
+    color: yellow;
+    background-color: pink;
+    display: block;
+    margin: 10px;
+}
