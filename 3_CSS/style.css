@@ -410,8 +410,17 @@ h2 {
     margin: 10px;
 }
 
-/* Escondendo elemetos */
+/* Escondendo elementos */
 
 .invisible {
     display: none;
+}
+
+/* Static */
+
+.static {
+    position: static;
+    background-color: green;
+    width: 100px;
+    height: 100px;
 }
