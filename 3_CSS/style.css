@@ -409,3 +409,9 @@ h2 {
     display: block;
     margin: 10px;
 }
+
+/* Escondendo elemetos */
+
+.invisible {
+    display: none;
+}
