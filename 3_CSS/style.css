@@ -378,3 +378,15 @@ h2 {
 .bolder {
     font-weight: 900;
 }
+
+/* Font size */
+
+.small {
+    font-size: 4px;
+    background-color: pink;
+}
+
+.big {
+    font-size: 40px;
+    background-color: red;
+}
