@@ -1,6 +1,8 @@
 html {
   font-family: Helvetica;
-  background-color: blanchedalmond;
+  background-image: url(./img/fundo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container {
