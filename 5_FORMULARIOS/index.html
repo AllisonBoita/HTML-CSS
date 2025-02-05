@@ -63,6 +63,18 @@
                     <input type="text" name="lastName">
                 </fieldset>
             </div>
+            <!-- 11 - Datalist -->
+             <!-- Nesse posso pesquisar ou escolher um definido -->
+             <div>
+                <label for="flavor">Escolha o sabor: </label>
+                <input type="text" name="flavor" list="flavors"> <!-- Linkando o datalist com o input -->
+                <datalist id="flavors">
+                    <option value="Cereja"></option>
+                    <option value="Morango"></option>
+                    <option value="Creme"></option>
+                    <option value="Chocolate"></option>
+                </datalist>
+             </div>
          <!-- 5 - Envio de form -->
           <input type="submit" value="Enviar">
     </form>
