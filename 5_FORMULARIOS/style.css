@@ -18,3 +18,11 @@ div label {
 .radio span {
     display: inline-block;
 }
+
+/* Checkbox */
+
+.checkbox label,
+.checkbox input,
+.checkbox span {
+    display: inline-block;
+}
