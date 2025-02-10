@@ -64,3 +64,78 @@ textarea {
     position: relative;
     top: -62px;
 }
+
+/* form header */
+
+.form-header {
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+
+.form-header p {
+    color: rgb(173, 23, 23);
+    border-bottom: 2px solid rgb(173, 23, 23);
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 45px;
+    height: 45px;
+}
+
+/* form body */
+
+.form-body {
+    padding: 30px;
+}
+
+.form-title {
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    margin-bottom: 20px;
+}
+
+.box-input {
+    margin-bottom: 35px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-list li{
+    list-style: none;
+}
+
+.box-input {
+    margin-bottom: 15px;
+}
+
+.btn-submit {
+    background-color: rgb(173, 23, 23);
+    color: #fff;
+    border: 2px solid transparent;
+    width: 75px;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+    display: inline;
+}
+
+.btn-submit:hover{
+    background-color: white;
+    border-color: rgb(173, 23, 23);
+    color: rgb(173, 23, 23);
+}
+
+.required-field {
+    color: red;
+}
