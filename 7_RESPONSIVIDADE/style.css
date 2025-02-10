@@ -7,3 +7,29 @@ h1 {
         color: blue;
     }
 }
+
+/* min width */
+
+p {
+    color: black;
+    background-color: red;
+}
+
+@media screen and (min-width: 800px) {
+    p {
+        color: gray;
+        background-color: blue;
+    }
+}
+
+/* 3 - Landscape */
+
+h3 {
+    display: none;
+}
+
+@media screen and (orientation: landscape){
+    h3 {
+        display: block;
+    }
+}
