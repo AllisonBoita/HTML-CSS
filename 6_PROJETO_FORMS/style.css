@@ -33,8 +33,13 @@ input {
 input[type="text"],
 input[type="number"],
 input[type="data"],
-input[type="file"]{
+input[type="file"],
+textarea{
     width: 400px;
+}
+
+textarea {
+    padding: 10px 5px;
 }
 
 /* page header */

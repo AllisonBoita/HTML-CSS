@@ -21,9 +21,21 @@
             </div>
             <form action="send">
                 <div class="box-input">
-                    <label for="title">Título do anúncio <span class="required-field">*</span></label>
+                    <label for="title">Título do anúncio<span class="required-field">*</span></label>
                     <input type="text" name="title" id="title" class="block" placeholder="Nome da sua carta" minlength="1"
                         maxlength="20" required>
+                </div>
+                <div class="box-input">
+                    <label for="price">Preço<span class="required-field">*</span></label>
+                    <input type="number" name="price" id="price" class="block" placeholder="Digite o valor da carta">
+                </div>
+                <div class="box-input">
+                    <label for="description">Descreva o estado da carta <span class="required-field">*</span></label>
+                    <textarea name="description" id="description" placeholder="Informe se existem rasgos, ranhuras ou algo neste sentido"></textarea>
+                </div>
+                <div class="box-input">
+                    <label for="pokemon-name">Informe o nome do pokemon</label>
+                    <input type="text" name="pokemon-name" id="pokemon-name" placeholder="Nome do pokemon">
                 </div>
                 <input type="submit" value="enviar">
             </form>
