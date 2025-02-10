@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Cartas Pokemon</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Cadastre suas cartas para venda!</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Venda suas cartas!</h1>
+                <p>Descreva as características e marque os opcionais da sua carta!</p>
+            </div>
+            <form action="send">
+                <div class="box-input">
+                    <label for="title">Título do anúncio <span class="required-field">*</span></label>
+                    <input type="text" name="title" id="title" class="block" placeholder="Nome da sua carta" minlength="1"
+                        maxlength="20" required>
+                </div>
+                <input type="submit" value="enviar">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
