@@ -12,33 +12,36 @@
     </div>
     <div class="form-container">
         <div class="form-header">
-            <P>Formulário</P>
+            <p>Formulário</p>
         </div>
         <div class="form-body">
             <h1 class="form-title">Aqui você pode vender tudo! Basta preencher e enviar.</h1>
             <form action="">
                 <div class="box-input">
-                    <label for="title">Título do anúncio <span class="required-field">*</span></label>
+                    <p>Título do produto <span class="required-field">*</span></p>
                     <input type="text" class="block" id="title" name="title" placeholder="Insira o título do anúncio" required>
                 </div>
                 <div class="box-input">
-                    <label for="description">Descrição do anúncio<span class="required-field">*</span></label>
+                    <p>Descrição do produto <span class="required-field">*</span></p>
                     <textarea name="description" class="block" id="description" placeholder="descreva o produto"></textarea>
                 </div>
-                <div class="radio">
-                    <input type="radio" value="novo" name="novo">
-                    <label for="conditions">Novo - Nunca Usado</label>
-                </div>
-                <div class="radio">
-                    <input type="radio" value="usado" name="usado">
-                    <label for="conditions">Usado - Em boas condições</label>
-                </div>
-                <div class="radio">
-                    <input type="radio" value="usado-2" name="usado-2">
-                    <label for="conditions">Usado - Em Más condições</label>
+                <div class="box-input">
+                    <p>Condições do produto <span class="required-field">*</span></p>
+                    <div class="radio">
+                        <input type="radio" value="novo" name="conditions" required>
+                        <label for="conditions">Novo - Nunca Usado</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" value="usado" name="conditions">
+                        <label for="conditions">Usado - Em boas condições</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" value="usado-2" name="conditions">
+                        <label for="conditions">Usado - Em Más condições</label>
+                    </div>
                 </div>
                 <div class="box-input">
-                    <label for="value">Valor do Produto <span class="required-field"></span></label>
+                    <p>Valor do produto <span class="required-field">*</span></p>
                     <input type="number" name="value" id="value" class="block">
                 </div>
                 <div class="optional-box">

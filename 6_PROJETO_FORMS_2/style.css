@@ -55,11 +55,12 @@ textarea {
 }
 
 .form-container {
-    background-color: antiquewhite;
+    background-color: white;
     width: 60%;
     margin: 0 auto;
     position: relative;
     top: -56px;
+    border: 1px solid gray;
 }
 
 /* form header */
@@ -75,3 +76,65 @@ textarea {
 }
 
 /* form body */
+
+.form-body {
+    padding: 30px;
+}
+
+.form-body h1 {
+    margin-bottom: 30px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+/* inputs */
+
+.box-input {
+    margin-bottom: 15px;
+}
+
+.box-input {
+    margin-bottom: 15px;
+}
+
+.block {
+    display: block;
+}
+
+.optional-box {
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-box li {
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+.optional-box p {
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    background-color: rgb(26, 26, 95);
+    color: #fff;
+    border: 2px solid transparent;
+    width: 105px;
+    height: 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.6s;
+    display: inline;
+}
+
+.btn-submit:hover{
+    background-color: #fff;
+    border-color: rgb(26, 26, 95); 
+    color: rgb(26, 26, 95);
+}
+
+.required-field {
+    color: red;
+}
