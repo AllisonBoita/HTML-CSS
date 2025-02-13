@@ -318,3 +318,44 @@ footer {
     font-weight: bold;
     margin: 20px 0 100px;
 }
+
+/* Responsividade */
+
+/* laptops a partir de 1100px */
+
+@media (max-width: 1100px) {
+    .plans-container {
+        width: 95%;
+
+    }
+
+    .plan {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-banner p {
+            font-size: 32px;
+            padding: 0 6rem;
+    }
+
+    .searchdomain-container h2 {
+        padding: 3rem;
+    }
+}
+
+/* Celular */
+
+@media (max-width: 576px) {
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+    }
+}
