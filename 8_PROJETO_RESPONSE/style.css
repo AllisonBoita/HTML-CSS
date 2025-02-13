@@ -281,22 +281,32 @@ nav {
     margin-bottom: 20px;
 }
 
-.contact-container input {
-    display: block;
+.contact-container input,
+.contact-container textarea {
     border-radius: 5px;
+    margin: 0 10px 20px;
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #333;
+}
+
+.contact-container textarea {
+    display: block;
+    margin: 0 auto 20px;
+    width: 450px;
+    height: 150px;
+}
+
+.contact-container input[type="submit"] {
+    display: block;
     margin: 0 auto;
+    background-color: #2e5c36;
+    color: white;
+    cursor: pointer;
 }
 
-.contact-container input[type="text"]{
-    width: 20%;
-    padding: 20px;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.contact-container input[type="email"]{
-    width: 20%;
-    padding: 20px;
-    font-size: 20px;
-    margin-bottom: 20px;
+.contact-container input[type="submit"]:hover {
+    background-color: #21683e;
+        color: #fff;
 }
