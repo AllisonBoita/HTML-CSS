@@ -310,3 +310,11 @@ nav {
     background-color: #21683e;
         color: #fff;
 }
+
+/* Footer */
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0 100px;
+}
