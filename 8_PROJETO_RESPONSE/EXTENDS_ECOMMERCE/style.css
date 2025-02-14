@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #272323;
+}
+
+h1, h2, h3 {
+    color: #edeecb;
+}
+
+p {
+    color: #edeecb;
+}
