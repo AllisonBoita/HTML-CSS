@@ -26,6 +26,12 @@ body {
     padding: 0 1rem;
 }
 
+.navbar-container h1 {
+    color: #333;
+    position: absolute;
+    margin: 20px 60px;
+}
+
 nav {
     position: relative;
 }
@@ -69,3 +75,8 @@ nav {
 }
 
 /* Main Banner */
+
+.main-banner h1 {
+    font-size: 36px;
+    text-align: center;
+}
