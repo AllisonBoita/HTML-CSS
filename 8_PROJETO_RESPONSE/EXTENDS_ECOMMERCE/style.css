@@ -76,7 +76,18 @@ nav {
 
 /* Main Banner */
 
+.main-banner h1,
+.main-banner p {
+    text-shadow: #333 3px 2px 2px;
+    text-align: center;
+    font-weight: bold;
+}
+
 .main-banner h1 {
     font-size: 36px;
     text-align: center;
+}
+
+.main-banner p {
+    font-size: 20px;
 }
