@@ -120,3 +120,17 @@
 #three {
     order: 3;
 }
+
+/* Grow */
+
+.grow {
+    display: flex;
+}
+
+.grow .box {
+    flex: 1;
+}
+
+.grow .box-big {
+    flex: 2;
+}
