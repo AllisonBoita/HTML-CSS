@@ -88,3 +88,17 @@
 .strech .box {
     height: auto;
 }
+
+/* Gap */
+
+.gap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid green;
+    gap: 20px;
+}
+
+.gap .box {
+    width: 32%;
+}
