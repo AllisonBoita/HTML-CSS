@@ -2,3 +2,10 @@
     display: flex;
     background-color: gray;
 }
+
+.flex-column {
+    display: flex;
+    background-color: #ccc;
+    flex-direction: column;
+    width: 40%;
+}
