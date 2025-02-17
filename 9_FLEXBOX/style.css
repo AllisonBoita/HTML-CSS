@@ -55,3 +55,36 @@
 .end {
     justify-content: end;
 }
+
+/* Align Itens */
+
+.align-center,
+.flex-end,
+.strech {
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid blue;
+}
+
+.align-center .box,
+.flex-end .box,
+.strech .box {
+    width: 30px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.strech {
+    align-items: stretch;
+}
+
+.strech .box {
+    height: auto;
+}
