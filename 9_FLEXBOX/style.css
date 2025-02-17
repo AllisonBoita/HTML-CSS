@@ -8,4 +8,17 @@
     background-color: #ccc;
     flex-direction: column;
     width: 40%;
+    margin-bottom: 20px;
+}
+
+.flex-wrap {
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 40px;
+    width: 33%;
+    border: 1px solid red;
 }
