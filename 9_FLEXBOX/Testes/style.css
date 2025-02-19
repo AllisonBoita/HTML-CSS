@@ -11,9 +11,9 @@
 }
 
 .container .resumo-gestao {
-    background-color: rgb(85, 81, 81);
+    background-color: rgb(35, 35, 114);
     border-radius: 10px;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     gap: 10px;
 }
