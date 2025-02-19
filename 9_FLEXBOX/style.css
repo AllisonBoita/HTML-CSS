@@ -134,3 +134,20 @@
 .grow .box-big {
     flex: 2;
 }
+
+/* Basis */
+
+.basis {
+    display: flex;
+    
+}
+
+.box {
+    border: 1px solid red;
+    flex-basis: 20px ;
+}
+
+.box-big {
+    border: 1px solid red;
+    flex: 2;
+}
