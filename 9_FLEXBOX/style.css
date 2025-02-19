@@ -185,3 +185,24 @@
     border: 1px solid red;
     flex: 3 1 400px /* Grow, Shrink e Basis */
 }
+
+/* Auto Alinhamento */
+
+.auto-alignment {
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid purple;
+}
+
+.auto-alignment .box {
+    width: auto;
+    flex: 1 1 50px;
+}
+
+.auto-alignment .different {
+    border: 1px solid red;
+    align-self: center;
+    flex: 3 1 400px;
+    height: 40px;
+}
