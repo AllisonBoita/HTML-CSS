@@ -1,0 +1,20 @@
+/* Geral */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Body */
+
+body {
+    background-color: #fafafa;
+}
+
+/* Containers */
+
+.main-container {
+    display: flex; /* Banner de um lado, formulário de outro */
+}
