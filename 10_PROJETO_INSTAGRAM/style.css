@@ -18,3 +18,24 @@ body {
 .main-container {
     display: flex; /* Banner de um lado, formulário de outro */
 }
+
+.banner-container,
+.form-container {
+    flex: 1 1 0;
+    width: 50%;
+}
+
+.banner-container {
+    text-align: right;
+}
+
+.banner-container img {
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 25px;
+    max-width: 300px;
+}
+
+.form-container {
+    text-align: center;
+}
