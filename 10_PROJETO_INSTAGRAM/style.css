@@ -164,3 +164,24 @@ body {
     font-weight: bold;
 
 }
+
+/* Get APP */
+
+.get-app-container {
+    text-align: center;
+    width: 350px;
+}
+
+.get-app-container p {
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.get-app-container a {
+    text-decoration: none;
+}
+
+.get-app-container img {
+    width: 136px;
+    height: 40px;
+}
