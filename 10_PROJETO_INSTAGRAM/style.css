@@ -39,3 +39,46 @@ body {
 .form-container {
     text-align: center;
 }
+
+/* Login Form */
+
+.form-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    margin-top: 30px;
+}
+
+#insta-logo {
+    width: 175px;
+    height: 50px;
+    margin: 30px auto 12px;
+}
+
+/* Login Form */
+
+#login-form {
+    margin-top: 20px;
+}
+
+#login-form input {
+    display: block;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 268px;
+    margin: 5px auto;
+}
+
+#login-form input[type="submit"] {
+    background-color: #b2dffc;
+    color: #fff;
+    margin-top: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 13px;
+    padding: 0;
+}
