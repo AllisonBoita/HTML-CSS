@@ -82,3 +82,26 @@ body {
     font-size: 13px;
     padding: 0;
 }
+
+/* Separator */
+
+.separator {
+    position: relative;
+}
+
+.line {
+    border-top: 1px solid #dbdbdb;
+    width: 268px;
+    margin: 25px auto 35px;
+}
+
+.separator span {
+    position: absolute;
+    text-transform: uppercase;
+    color: #bbb;
+    background-color: #fff;
+    top: -6px;
+    margin-left: -25px;
+    width: 50px;
+    font-size: 15px;
+}
