@@ -10,3 +10,9 @@ Semânticos:
 - main
 - section
 - article
+
+### Tag section
+
+Define seção de documento:
+
+- Seção de produtos, contato...
