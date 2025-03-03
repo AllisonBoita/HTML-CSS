@@ -70,3 +70,68 @@ a:hover {
 .title {
     font-size: 2rem;
 }
+
+/* Sidebar */
+
+#sidebar {
+    flex: 1 1 0;
+}
+
+#search-bar,
+#categories,
+#tags {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+#search-bar h4,
+#categories h4,
+#tags h4 {
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+#search-bar form {
+    display: flex;
+}
+
+#search-bar input {
+    padding: 0.5rem 1rem;
+    border: 1pxx solid #ddd;
+}
+
+#search-bar input[type="submit"]{
+    cursor: pointer;
+    background-color: #37a1f7;
+    color: #fff;
+    border: none;
+}
+
+#categories li {
+    margin-bottom: 1rem;   
+}
+
+#tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+#tags-container a {
+    padding: 0.5rem 0.7rem;
+    background-color: #ddd;
+    border-radius: 0.3rem;
+}
+
+/* Footer */
+
+#footer {
+    border: 2px solid #ddd;
+    text-align: center;
+    padding: 3rem;
+}
+
+#footer p {
+    margin-bottom: 1rem;
+}
