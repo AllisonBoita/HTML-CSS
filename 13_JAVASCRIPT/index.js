@@ -5,3 +5,8 @@ console.log('Olá mundo')
 console.log(typeof "Olá Mundo")
 console.log(typeof 'Olá Mundo')
 console.log(typeof `Olá Mundo`)
+
+/* Interpolação / Template Strings */
+
+let numero = 250
+console.log(`Meu valor inicial é ${numero}`)
