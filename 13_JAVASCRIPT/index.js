@@ -58,3 +58,11 @@ let c = 3
 
 let soma = a + b + c
 console.log(soma)
+
+/* Estrutura de Função */
+
+function somar(a, b) {
+    return a + b
+}
+
+console.log(somar(25,5))
