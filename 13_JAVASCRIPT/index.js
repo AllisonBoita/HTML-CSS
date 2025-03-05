@@ -43,3 +43,18 @@
 
 let nome = "Allison"
 console.log(nome)
+
+nome = "Marcio"
+console.log(nome)
+
+const nome1 = "Allison"
+console.log(nome1)
+
+/* Aprofundando em variáveis */
+
+let a = 1
+let b = 2
+let c = 3
+
+let soma = a + b + c
+console.log(soma)
