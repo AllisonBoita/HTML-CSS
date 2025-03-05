@@ -1,38 +1,45 @@
-console.log('Olá mundo')
+// console.log('Olá mundo')
 
-/* Tipo String */
+// /* Tipo String */
 
-console.log(typeof "Olá Mundo")
-console.log(typeof 'Olá Mundo')
-console.log(typeof `Olá Mundo`)
+// console.log(typeof "Olá Mundo")
+// console.log(typeof 'Olá Mundo')
+// console.log(typeof `Olá Mundo`)
 
-/* Interpolação / Template Strings */
+// /* Interpolação / Template Strings */
 
-let numero = 250
-console.log(`Meu valor inicial é ${numero}`)
+// let numero = 250
+// console.log(`Meu valor inicial é ${numero}`)
 
-/* Boolean */
+// /* Boolean */
 
-console.log(typeof true)
-console.log(5 < 20)
+// console.log(typeof true)
+// console.log(5 < 20)
 
-/* Comparações */
+// /* Comparações */
 
-console.log(1 > 0)
-console.log(1 >= 1)
-console.log(3 != 3)
-console.log(3 == "3") // Compara valores. 
-console.log(3 === "3") // Compara o tipo e o valor
+// console.log(1 > 0)
+// console.log(1 >= 1)
+// console.log(3 != 3)
+// console.log(3 == "3") // Compara valores. 
+// console.log(3 === "3") // Compara o tipo e o valor
 
-/* Valor Idêntico */
+// /* Valor Idêntico */
 
-console.log(3 !== "3") // Compara a diferença entre tipo e valor
-console.log(3 === "3") // Compara o tipo e o valor
+// console.log(3 !== "3") // Compara a diferença entre tipo e valor
+// console.log(3 === "3") // Compara o tipo e o valor
 
-/* Operadores Lógicos */
+// /* Operadores Lógicos */
 
-console.log(3 > 2 && 1 < 5) // As duas precisam ser true.
-console.log(3 >= 3 && 7 > 8) // Falso neste caso.
-console.log(3 > 2 || 1 !== 1) // Ou uma ou outra
+// console.log(3 > 2 && 1 < 5) // As duas precisam ser true.
+// console.log(3 >= 3 && 7 > 8) // Falso neste caso.
+// console.log(3 > 2 || 1 !== 1) // Ou uma ou outra
 
-console.log(!6 < 2) // Inversão com NOT
+// console.log(!6 < 2) // Inversão com NOT
+
+// -----------------
+
+/* Salvando Valores */
+
+let nome = "Allison"
+console.log(nome)
