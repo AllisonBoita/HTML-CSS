@@ -23,3 +23,8 @@ console.log(1 >= 1)
 console.log(3 != 3)
 console.log(3 == "3") // Compara valores. 
 console.log(3 === "3") // Compara o tipo e o valor
+
+/* Valor Idêntico */
+
+console.log(3 !== "3") // Compara a diferença entre tipo e valor
+console.log(3 === "3") // Compara o tipo e o valor
