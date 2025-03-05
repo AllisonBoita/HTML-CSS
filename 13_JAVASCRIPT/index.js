@@ -10,3 +10,9 @@ console.log(typeof `Olá Mundo`)
 
 let numero = 250
 console.log(`Meu valor inicial é ${numero}`)
+
+/* Boolean */
+
+console.log(typeof true)
+console.log(5 < 20)
+
