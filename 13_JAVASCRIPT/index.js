@@ -71,3 +71,7 @@ console.log(somar(25,5))
 
 const age = prompt("Digite a sua idade: ")
 console.log(`você tem ${age} anos`)
+
+/* Função de Alerta */
+
+alert("Olá planeta bola!")
