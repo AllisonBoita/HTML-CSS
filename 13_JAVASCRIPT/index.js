@@ -67,11 +67,19 @@ function somar(a, b) {
 
 console.log(somar(25,5))
 
-/* Prompt */
+// /* Prompt */
 
-const age = prompt("Digite a sua idade: ")
-console.log(`você tem ${age} anos`)
+// const age = prompt("Digite a sua idade: ")
+// console.log(`você tem ${age} anos`)
 
-/* Função de Alerta */
+// /* Função de Alerta */
 
-alert("Olá planeta bola!")
+// alert("Olá planeta bola!")
+
+/* Objeto Math */
+
+let numberList = [6.3]
+
+console.log(Math.max(numberList))
+console.log(Math.floor(numberList))
+console.log(Math.ceil(numberList))
