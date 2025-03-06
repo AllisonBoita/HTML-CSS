@@ -89,3 +89,15 @@ console.log(Math.ceil(numberList))
 console.log("Olá mundo")
 console.error("Não está funcionando, bebê")
 console.warn("Cuidado com isso")
+
+/* Estruturas de Controle */
+
+let validaNumero = 6
+
+if (validaNumero > 6){
+    console.log(`o número ${validaNumero} é maior que 6`)
+} else if (validaNumero === 6) {
+    console.log(`o número ${validaNumero} é igual que 6`)
+} else {
+    console.log(`o número ${validaNumero} é menor que 6`)
+}
