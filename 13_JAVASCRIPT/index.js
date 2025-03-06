@@ -83,3 +83,9 @@ let numberList = [6.3]
 console.log(Math.max(numberList))
 console.log(Math.floor(numberList))
 console.log(Math.ceil(numberList))
+
+/* Console */
+
+console.log("Olá mundo")
+console.error("Não está funcionando, bebê")
+console.warn("Cuidado com isso")
