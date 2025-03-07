@@ -134,3 +134,16 @@ let r = 10
 for (r; r > 0; r--){
     console.log(`o r está diminuindo para ${r}`)
 }
+
+/* Break */
+
+let bre = 0
+
+for (bre; bre < 15; bre++){
+    console.log(`seu b é ${bre}`)
+
+    if (bre === 5){
+        console.log("seu b é 5")
+        break
+    }
+}
