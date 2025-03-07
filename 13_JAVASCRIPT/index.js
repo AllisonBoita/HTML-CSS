@@ -101,3 +101,12 @@ if (validaNumero > 6){
 } else {
     console.log(`o número ${validaNumero} é menor que 6`)
 }
+
+/* While */
+
+let p = 0
+
+while (p < 5) {
+    console.log(`o P agora é: ${p}`)
+    p++;
+}
