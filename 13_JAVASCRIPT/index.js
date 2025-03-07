@@ -102,20 +102,35 @@ if (validaNumero > 6){
     console.log(`o número ${validaNumero} é menor que 6`)
 }
 
-/* While */
+// /* While */
 
-let p = 0
+// let p = 0
 
-while (p < 5) {
-    console.log(`o P agora é: ${p}`)
-    p++;
+// while (p < 5) {
+//     console.log(`o P agora é: ${p}`)
+//     p++;
+// }
+
+// /* Do While */
+
+// let o = 10 
+
+// do {
+//     console.log(`valor de o é ${o}`)
+//     o--
+// } while (o > 1)
+
+
+/* For */
+
+let i
+
+for (i = 0; i < 10; i++) {
+    console.log("repetindo algo")
 }
 
-/* Do While */
+let r = 10
 
-let o = 10 
-
-do {
-    console.log(`valor de o é ${o}`)
-    o--
-} while (o > 1)
+for (r; r > 0; r--){
+    console.log(`o r está diminuindo para ${r}`)
+}
