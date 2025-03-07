@@ -110,3 +110,12 @@ while (p < 5) {
     console.log(`o P agora é: ${p}`)
     p++;
 }
+
+/* Do While */
+
+let o = 10 
+
+do {
+    console.log(`valor de o é ${o}`)
+    o--
+} while (o > 1)
