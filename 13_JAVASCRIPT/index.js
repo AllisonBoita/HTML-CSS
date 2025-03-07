@@ -147,3 +147,13 @@ for (bre; bre < 15; bre++){
         break
     }
 }
+
+/* Continue */
+
+for (let cont = 0; cont < 10; cont++){
+    if (cont % 2 === 0){
+        console.log("Seu número é par")
+        continue
+    }
+    console.log(cont)
+}
