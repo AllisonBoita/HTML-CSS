@@ -51,3 +51,23 @@ function escopoAninhado() {
 
 escopoAninhado()
 console.log(m)
+
+/* Arrow Function */
+
+const testArrow = () => {
+    console.log('Está é uma arrow function')
+}
+
+testArrow()
+
+const identificaPar = (numero) => {
+    if(numero % 2 === 0){
+        console.log('Par')
+        return
+    } else {
+        console.log('Impar')
+    }
+}
+
+identificaPar(7)
+identificaPar(8)
