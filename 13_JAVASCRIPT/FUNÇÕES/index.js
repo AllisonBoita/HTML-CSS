@@ -16,3 +16,16 @@ function soma(n1, n2, n3) {
 
 const resultado = soma(a,b,c)
 console.log(resultado)
+
+/* Escopo das funções */
+
+function subtracao(){
+    const a = 4
+    const b = 23
+    const c = 12
+
+    console.log(`os números dentro da função são ${a}, ${b} e ${c}`)
+}
+
+subtracao()
+console.log(`os números dentro da função são ${a}, ${b} e ${c}`)
