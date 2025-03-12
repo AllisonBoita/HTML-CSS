@@ -76,3 +76,16 @@ identificaPar(8)
 
 const raizQuadrada = (x) => x * x
 console.log(raizQuadrada(2))
+
+/* Argumentos opcionais */
+
+const greeting = (name) => { /* Nesse caso se eu não passar o name ele cai no primeiro IF */
+    if (!name) {
+        console.log('Olá, Convidado')
+    } else {
+        console.log(`Olá, ${name}`)
+    }
+}
+
+greeting()
+greeting('Allison')
