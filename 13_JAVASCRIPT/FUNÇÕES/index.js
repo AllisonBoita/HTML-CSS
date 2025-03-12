@@ -89,3 +89,12 @@ const greeting = (name) => { /* Nesse caso se eu não passar o name ele cai no p
 
 greeting()
 greeting('Allison')
+
+/* Argumentos com valor default */
+
+const customGreeting = (name, greet = 'Olá') => {
+    return `${greet}, ${name}`
+}
+
+console.log(customGreeting('Allison'))
+console.log(customGreeting('Matheus', 'Bom dia'))
