@@ -98,3 +98,35 @@ const customGreeting = (name, greet = 'Olá') => {
 
 console.log(customGreeting('Allison'))
 console.log(customGreeting('Matheus', 'Bom dia'))
+
+/* Closure */
+
+function contador() {
+    let count = 0; // variável privada
+
+    return function() {
+        count++;
+        console.log(count);
+    };
+}
+
+const incrementar = contador();
+incrementar(); // 1
+incrementar(); // 2
+incrementar(); // 3
+
+/* Recursão */
+
+/* Função que decrementa os números de dois em dois e para quando o número resultado for menor que 10 */
+
+const untilTen = (n, m) => {
+    if (n < 10){
+        console.log('A função parou')
+    } else {
+        const x = n - m
+        console.log(x)
+        untilTen (x, m)
+    }
+}
+
+untilTen(100,2)
