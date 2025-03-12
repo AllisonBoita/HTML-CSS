@@ -71,3 +71,8 @@ const identificaPar = (numero) => {
 
 identificaPar(7)
 identificaPar(8)
+
+/* Otimização de Arrow function */
+
+const raizQuadrada = (x) => x * x
+console.log(raizQuadrada(2))
