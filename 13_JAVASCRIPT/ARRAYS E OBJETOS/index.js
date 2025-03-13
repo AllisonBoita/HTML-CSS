@@ -25,3 +25,14 @@ const text = 'Allison'
 console.log(text.toUpperCase())
 
 console.log(text.indexOf('l'))
+
+/* Objetos Literais */
+
+const person = {
+    nome: 'allison',
+    age: 25,
+    job: 'developer'
+}
+
+console.log(person.age)
+console.log(person.nome.length)
