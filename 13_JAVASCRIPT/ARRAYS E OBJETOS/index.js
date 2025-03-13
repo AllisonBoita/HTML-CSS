@@ -36,3 +36,21 @@ const person = {
 
 console.log(person.age)
 console.log(person.nome.length)
+
+/* Criando e deletando propriedades */
+
+const car = {
+    engine: 2.0,
+    color: "red",
+    doors: 4
+}
+
+console.log(car)
+
+car.model = 'Tiguan'
+
+console.log(car)
+
+delete car.engine
+
+console.log(car)
