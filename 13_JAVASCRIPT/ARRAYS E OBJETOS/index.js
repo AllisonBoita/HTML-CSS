@@ -54,3 +54,12 @@ console.log(car)
 delete car.engine
 
 console.log(car)
+
+/* Mais sobre objetos */
+
+const obj = {
+    a: "teste",
+    b: true
+}
+
+console.log(obj instanceof Object)
