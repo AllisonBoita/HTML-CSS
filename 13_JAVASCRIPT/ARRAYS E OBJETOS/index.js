@@ -55,7 +55,7 @@ delete car.engine
 
 console.log(car)
 
-/* Mais sobre objetos */
+/* Mais sobre objetos - Copiando propriedades */
 
 const obj = {
     a: "teste",
@@ -63,3 +63,11 @@ const obj = {
 }
 
 console.log(obj instanceof Object)
+
+const obj2 = {
+    c: []
+}
+
+Object.assign(obj2, obj)
+
+console.log(obj2)
