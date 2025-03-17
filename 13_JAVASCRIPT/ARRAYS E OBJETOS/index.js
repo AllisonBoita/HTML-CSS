@@ -102,3 +102,11 @@ delete b.age
 
 console.log(a)
 console.log(b)
+
+/* Loop em arrays */
+
+const loopArray = ['allison', 'boita', 'cristiano', 'neymar']
+
+for (let i = 0; i < loopArray.length; i++) {
+    console.log(`Este é o usuário ${loopArray[i]}`)
+}
