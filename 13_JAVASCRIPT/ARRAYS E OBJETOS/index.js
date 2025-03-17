@@ -79,3 +79,26 @@ console.log(Object.keys(obj2))
 
 console.log(Object.entries(obj)) /* Trás as propriedades e os valores do objeto */
 console.log(Object.entries(obj2))
+
+/* Mutação - Criando um objeto a partir de outro */
+
+/* Ele não é novo. As mudanças afetam a copia */
+
+const a = {
+    name: "Allison"
+}
+
+const b = a
+
+console.log(a)
+console.log(b)
+
+a.age = 32
+
+console.log(a)
+console.log(b)
+
+delete b.age
+
+console.log(a)
+console.log(b)
