@@ -110,3 +110,18 @@ const loopArray = ['allison', 'boita', 'cristiano', 'neymar']
 for (let i = 0; i < loopArray.length; i++) {
     console.log(`Este é o usuário ${loopArray[i]}`)
 }
+
+/* Métodos push e pop */
+
+const testeArray = [1,2,5,4,3]
+
+console.log(testeArray)
+
+testeArray.push(0,23,24) // Adiciona um item ao fim do array - Posso adicionar mais itens também.
+
+console.log(testeArray)
+
+testeArray.pop()
+
+console.log(testeArray) // Remove um item ao fim do array
+// O pop retorna o elemento removido
