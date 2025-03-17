@@ -71,3 +71,11 @@ const obj2 = {
 Object.assign(obj2, obj)
 
 console.log(obj2)
+
+/* Método keys e entries */
+
+console.log(Object.keys(obj)) /* Trás o que tem em cada objeto (propriedades) */
+console.log(Object.keys(obj2))
+
+console.log(Object.entries(obj)) /* Trás as propriedades e os valores do objeto */
+console.log(Object.entries(obj2))
