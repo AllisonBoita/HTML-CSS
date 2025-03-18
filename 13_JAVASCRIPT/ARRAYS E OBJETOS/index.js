@@ -154,4 +154,21 @@ console.log(frutas.indexOf("Morango")) // Trás o 0 -> Começa da esquerda para 
 
 console.log(frutas.lastIndexOf("Morango")) // Trás o 4 -> Começa de trás pra frente.
 
+/* Método Slice */
 
+/* Extrai um array menor de um menor. */
+
+const sliceArray = ["a", "b", "c", "d", "e"]
+
+const subarray = sliceArray.slice(2,3) /* Aqui o último é cortado. */
+
+console.log(sliceArray)
+console.log(subarray)
+
+const subarray2 = sliceArray.slice(2,4 + 1) /* Para considerar o último elemento */
+
+console.log(subarray2)
+
+/* Se coloco um intervalo inexistente ele retorna vazio */
+
+/* forEach */
