@@ -172,3 +172,19 @@ console.log(subarray2)
 /* Se coloco um intervalo inexistente ele retorna vazio */
 
 /* forEach */
+
+const nums = [1,2,3,4,5,6]
+
+nums.forEach((numero) => {
+    console.log(`o número é ${numero}`)
+})
+
+const posts = [
+    {title: "Primeiro Post", category: "PHP"},
+    {title: "Segundo Post", category: "Javascript"},
+    {title: "Terceiro Post", category: "C++"},
+]
+
+posts.forEach((post) => {
+    console.log(`Exibindo post ${post.title} da categoria ${post.category}`)
+})
