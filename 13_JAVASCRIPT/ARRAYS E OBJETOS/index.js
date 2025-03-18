@@ -125,3 +125,20 @@ testeArray.pop()
 
 console.log(testeArray) // Remove um item ao fim do array
 // O pop retorna o elemento removido
+
+/* Métodos shift e unshift */
+
+/* Com o shift eu consigo remover o primeiro item do array */
+/* Com o unshift eu consigo adicionar */
+
+const testeArray2 = [9,8,7,6,5,4]
+
+console.log(testeArray2)
+
+testeArray2.unshift(3)
+
+console.log(testeArray2)
+
+testeArray2.shift()
+
+console.log(testeArray2)
