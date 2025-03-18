@@ -188,3 +188,16 @@ const posts = [
 posts.forEach((post) => {
     console.log(`Exibindo post ${post.title} da categoria ${post.category}`)
 })
+
+/* Método includes */
+
+const brands = ["BMW", "FIAT", "PAJERO"]
+
+console.log(brands.includes("FIAT")) // Retorna true
+console.log(brands.includes("ECO")) // Retorna false
+
+if (brands.includes("ECO")) {
+    console.log(`Há carros da marca BMW`)
+} else {
+    console.log("Não existem carros disponíveis da marca desejada")
+}
