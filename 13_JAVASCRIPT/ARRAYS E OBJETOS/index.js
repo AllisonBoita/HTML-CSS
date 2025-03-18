@@ -201,3 +201,11 @@ if (brands.includes("ECO")) {
 } else {
     console.log("Não existem carros disponíveis da marca desejada")
 }
+
+/* Método Reverse */
+
+// Ele inverte os elementos do array e modifica o array original
+
+const reverse = ['Olá', 'Meu', 'Nome', 'Allison']
+
+console.log(reverse.reverse())
