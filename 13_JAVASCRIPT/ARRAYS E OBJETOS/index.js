@@ -142,3 +142,16 @@ console.log(testeArray2)
 testeArray2.shift()
 
 console.log(testeArray2)
+
+/* Métodos indexOf e lastIndexOf */
+
+/* Quando não existe o método retorna -1 */
+
+const frutas = ["Morango", "Maçã", "Pera", "Uva", "Morango"]
+
+console.log(frutas.indexOf("Uva")) // 3 Elemento
+console.log(frutas.indexOf("Morango")) // Trás o 0 -> Começa da esquerda para a direita.
+
+console.log(frutas.lastIndexOf("Morango")) // Trás o 4 -> Começa de trás pra frente.
+
+
