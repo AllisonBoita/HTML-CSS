@@ -238,3 +238,13 @@ console.log(newNumber)
 const testePadEnd = newNumber.padEnd(10, "5")
 
 console.log(testePadEnd)
+
+/* Método split */
+
+// Divide uma string em um array. 
+
+const frase = "O rato roeu a roupa do rei de roma"
+
+const arrayFrase = frase.split(" ")
+
+console.log(arrayFrase)
