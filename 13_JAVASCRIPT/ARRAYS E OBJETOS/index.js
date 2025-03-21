@@ -261,3 +261,8 @@ console.log(novaFrase)
 
 const juntarFrase = novaFrase.join(" ")
 console.log(juntarFrase)
+
+/* Repeat */
+
+const palavra = "Testando "
+console.log(palavra.repeat(5)) // número de vezes que vai ser repetido.
