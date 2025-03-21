@@ -248,3 +248,16 @@ const frase = "O rato roeu a roupa do rei de roma"
 const arrayFrase = frase.split(" ")
 
 console.log(arrayFrase)
+
+/* Método join */
+
+// Une um array em uma string
+
+const arrayFraseDnv = arrayFrase.join(" ")
+console.log(arrayFraseDnv)
+
+const novaFrase = ["o", "rato", "roeu", "a", "roupa"]
+console.log(novaFrase)
+
+const juntarFrase = novaFrase.join(" ")
+console.log(juntarFrase)
