@@ -206,6 +206,20 @@ if (brands.includes("ECO")) {
 
 // Ele inverte os elementos do array e modifica o array original
 
-const reverse = ['Olá', 'Meu', 'Nome', 'Allison']
+const revertendo = ['Olá', 'Meu', 'Nome', 'Allison']
 
-console.log(reverse.reverse())
+console.log(revertendo.reverse())
+
+/* Sobre os métodos string */
+
+/* Método Trim */
+
+// Remove tudo que não é texto em um string (caracteres especiais, espaços em branco)
+
+const removendoEspacos = "   olá neymar  r \n "
+
+console.log(removendoEspacos)
+console.log(removendoEspacos.trim())
+
+console.log(removendoEspacos.length)
+console.log(removendoEspacos.trim().length)
