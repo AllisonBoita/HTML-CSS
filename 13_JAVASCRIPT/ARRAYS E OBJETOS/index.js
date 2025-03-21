@@ -223,3 +223,18 @@ console.log(removendoEspacos.trim())
 
 console.log(removendoEspacos.length)
 console.log(removendoEspacos.trim().length)
+
+/* Método padStart */
+
+// Padronização de número de serial, por exemplo.
+
+const testePadStart = "1"
+
+const newNumber = testePadStart.padStart(4, "0") // 4 dígitos, preenchendo os três primeiros com 0
+
+console.log(testePadStart)
+console.log(newNumber)
+
+const testePadEnd = newNumber.padEnd(10, "5")
+
+console.log(testePadEnd)
